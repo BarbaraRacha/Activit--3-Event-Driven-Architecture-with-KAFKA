@@ -8,8 +8,12 @@
 
 <h3>2. Démarrage de Zookeeper et Kafka Broker.</h3>
 <h4>Commandes: </h4>
-  ```bach start bin\windows\zookeeper-server-start.bat config/zookeeper.properties
-start bin\windows\kafka-server-start.bat config/server.properties ```
+<pre>
+<code>
+start bin\windows\zookeeper-server-start.bat config/zookeeper.properties
+start bin\windows\kafka-server-start.bat config/server.properties
+</code>
+</pre>
 <img src="images/img1.png">
 
 <h3>3. Tests avec kafka-console-producer et kafka-console-consumer.</h3>
