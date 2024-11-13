@@ -18,10 +18,12 @@ start bin\windows\kafka-server-start.bat config/server.properties
 
 <h3>3. Tests avec kafka-console-producer et kafka-console-consumer.</h3>
 <h4>Commandes: </h4>
+<pre>
 <code>
 Start-Process "bin\windows\kafka-console-consumer.bat" -ArgumentList "--bootstrap-server", "localhost:9092", "--topic", "R1"
 Start-Process "bin\windows\kafka-console-producer.bat" -ArgumentList "--broker-list localhost:9092 --topic R1"
 </code>
+</pre>
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="images/img2.png" alt="Commande Producer" width="500">
   <img src="images/img3.png" alt="Commande Consumer" width="500">
