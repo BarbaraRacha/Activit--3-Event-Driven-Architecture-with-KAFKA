@@ -8,7 +8,8 @@
 
 <h3>2. Démarrage de Zookeeper et Kafka Broker.</h3>
 <h4>Commandes: </h4>
-  <textarea style="width: 100%; height: 100px;" placeholder="Écrivez vos commandes ici..."></textarea>
+<textarea style="width: 100%; height: 100px;" placeholder="start bin\windows\zookeeper-server-start.bat config/zookeeper.properties"></textarea>
+<textarea style="width: 100%; height: 100px;" placeholder="start bin\windows\kafka-server-start.bat config/server.properties"></textarea>
 <img src="images/img1.png">
 
 <h3>3. Tests avec kafka-console-producer et kafka-console-consumer.</h3>
