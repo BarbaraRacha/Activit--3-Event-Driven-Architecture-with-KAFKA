@@ -24,9 +24,8 @@ Start-Process "bin\windows\kafka-console-consumer.bat" -ArgumentList "--bootstra
 Start-Process "bin\windows\kafka-console-producer.bat" -ArgumentList "--broker-list localhost:9092 --topic R1"
 </code>
 </pre>
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="images/img2.png" alt="" width="500">
-</div>
+<img src="images/img2.png" alt="" width="500">
+
 
 
 <h2>Développement des services Kafka :</h2>
