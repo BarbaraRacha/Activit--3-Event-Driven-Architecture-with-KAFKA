@@ -20,6 +20,7 @@ import java.util.function.Supplier;
 
 @Service
 public class PageEventService {
+
     @Bean
     public Consumer<PageEvent> pageEventConsumer() {
         return (input)->{
