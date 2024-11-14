@@ -14,7 +14,7 @@ start bin\windows\zookeeper-server-start.bat config/zookeeper.properties
 start bin\windows\kafka-server-start.bat config/server.properties
 </code>
 </pre>
-<img src="images/img1.png">
+<img src="images/img1.png" width="500">
 
 <h3>3. Tests avec kafka-console-producer et kafka-console-consumer.</h3>
 <h4>Commandes: </h4>
