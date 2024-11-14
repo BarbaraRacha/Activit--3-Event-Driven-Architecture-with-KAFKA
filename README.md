@@ -25,8 +25,7 @@ Start-Process "bin\windows\kafka-console-producer.bat" -ArgumentList "--broker-l
 </code>
 </pre>
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="images/img2.png" alt="Commande Producer" width="500">
-  <img src="images/img3.png" alt="Commande Consumer" width="500">
+  <img src="images/img2.png" alt="" width="500">
 </div>
 
 
@@ -42,11 +41,17 @@ Start-Process "bin\windows\kafka-console-producer.bat" -ArgumentList "--broker-l
 <img src="images/img6.png" alt="img4" width="500">
 
 <h3>4. Stream Processing avec Kafka Streams : Service d'analyse de données en temps réel.</h3>
-<img src="images/img6.png" alt="img4" width="500">
+<img src="images/img7.png" alt="img4" width="500">
+
+<h3>5. Affichages : </h3>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="images/img10.png" alt="" width="500">
+  <img src="images/img11.png" alt="" width="500">
+</div>
 
 <h2>Application Web temps réel :</h2>
 <p>Interface permettant d'afficher les résultats des analyses de flux de données en temps réel.</p>
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="images/img5.png" alt="Commande Producer" width="500">
-  <img src="images/img6.png" alt="Commande Consumer" width="500">
+  <img src="images/img8.png" alt="" width="500">
+  <img src="images/img9.png" alt="" width="500">
 </div>
